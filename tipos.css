@@ -1,0 +1,41 @@
+body {
+  background: #ddd;
+}
+
+app-option {
+  font-family: Helvetica;
+  background: white;
+  color: black;
+  display: block;
+  padding: 10px 15px;
+  width: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+  
+  &:hover {
+    background: #ccc;
+  }
+  
+  &[disabled] {
+    color: #666;
+    cursor: not-allowed;
+    &:hover {
+      background: white;
+    }
+  }
+  
+  &[selected]{
+   background: #07103a;
+   color: white;
+  }
+  
+}
+
+app-select {
+  
+  .options {
+    width: 500px;
+    box-shadow: 0 4px 20px rgba(black, .5);
+    border-radius: 10px;
+    overflow: hidden;
+  }
