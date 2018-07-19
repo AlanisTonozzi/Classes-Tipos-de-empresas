@@ -1,8 +1,8 @@
 class OptionComponent {
   
-  _hostElement
-  _onSelectCallbacks
-  _onUnselectCallbacks
+  // _hostElement
+  // _onSelectCallbacks
+  // _onUnselectCallbacks
   
   constructor(hostElement) {
     this._hostElement = hostElement
@@ -97,8 +97,8 @@ class OptionComponent {
 
 class SelectComponent {
   
-  _hostElement
-  _optionComponents
+  // _hostElement
+  // _optionComponents
   
   constructor (_hostElement){
     this._hostElement = _hostElement
